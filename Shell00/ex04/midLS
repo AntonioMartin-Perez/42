@@ -1,1 +1,1 @@
-ls -t -p -cm
+ls -trmp
