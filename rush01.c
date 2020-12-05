@@ -34,6 +34,13 @@ void        algoritmo(int col1up, int col2up, int col3up, int col4up, int col1do
         {
 
             ////   Comienza el bosque de ifs ////
+            if (rowleft == 4)           // Condición de los 4s
+            {
+
+            }
+
+            // Condición que me dijo Santiago -> 3-2 enfrentados ubican el 4
+
             if( (i == 1 && rowleft[j] == 3) || (i == 4 && rowright[j] == 3) || (j == 1 && coldown[i] == 3) || (j == 4 && coldown[i] == 3))         // Condición de estar en el borde y view = 3
             {
                 tab[i][j][0] = 1;
